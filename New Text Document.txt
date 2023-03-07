@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="Css.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Yegara Host</title>
+</head>
+<style>
+    #signin {
+        background-color: #1e2044;
+
+    }
+
+    .col-sm-5 {
+        padding-left: 50px;
+        margin-top: 40px;
+    }
+
+    input {
+        padding: 15px;
+        width: 90%;
+        border-radius: 7px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .button {
+        margin-top: 15px;
+        padding: 10px;
+        width: 85%;
+        border-radius: 7px;
+        background-color: #fc3;
+        font-weight: 700;
+        font-size: small;
+        color: #4a5669;
+        font-family: Montserrat, sans-serif;
+    }
+
+    #img {
+        width: 100%;
+        margin-left: 20px;
+        margin-top: 50px;
+    }
+
+    .col-sm-6 {
+        margin-top: 100px;
+
+    }
+
+    h2 {
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 42px;
+    }
+
+    .col-sm-7 {
+        width: 57%;
+    }
+    .trouble{
+padding: 70px;
+background-color: aliceblue;
+color:#a0abbc;
+    }
+</style>
+
+<body>
+
+    <nav class="navbar" id="dropdown">
+        <p class="top"> Support chat &nbsp; &nbsp; Service status
+            <img src="Flag.png" style="border-radius: 50%; width: 20px; height: 15px; font-size: medium" />
+        </p>
+        <div class="brand-title"><img src="Logo.png" width="55%" /></div>
+        <a href="#" class="toggle-button" style="margin-top: 40px">
+            <span class="bar"> </span>
+            <span class="bar"> </span>
+            <span class="bar"> </span>
+        </a>
+        <div class="navbar-links">
+            <ul>
+                <li href="#">WEB HOSTING</li>
+                <li href="#">VPS</li>
+                <li href="#">PRICE</li>
+                <li href="#">SMS API</li>
+                <li> HOW TO </li>
+            </ul>
+
+        </div>
+    </nav>
+    <div class="row" id="signin">
+        <div class="col-sm-5" id="form">
+            <p style="font-size: 50px;color: white;"> <i class='bx bxs-lock-alt'></i><span
+                    style="font-weight:100">Client</span> Login</p>
+            <p style="color:white"> Login to Your Client area To manage your Service.</p>
+            <form>
+                <input type="text" placeholder="Email Address">
+                <input type="text" placeholder="Mobile 09_ _ _">
+
+                <input type="text" placeholder="Password">
+                <button type="button" class="button">CONFIRM&LOGIN</button>
+                <a href="#" style="text-decoration: none;color:#fc3"> Forgotten Password</a>
+            </form>
+        </div>
+        <div class="col-sm-7">
+            <div style="background-color: white;border-radius: 7px;">
+                <div class="row">
+                    <div class="col-sm-5" style="margin-top: 140px;">
+                        <img src="phone_mokeup_yegara_sms.png" id="img">
+
+                    </div>
+                    <div class="col-sm-6" style="margin-left: 50px;">
+                        <img src="header-sms-tight.png">
+                        <h2> FREE <span class="bluegreen"> SMS GATEWAY</span>
+                            Send OTP & More</h2>
+                        <p style="font-size: 24px;"> from your Websites and apps
+                        </p>
+                        <p style="line-height: 28px;">Instant and timely engagement with your customers. With
+                            transactional SMS messages.</p>
+
+                        <p> <span style="display: inline;margin-right: 70px;margin-left: 0px;"><i
+                                    class='bx bx-check bx-sm' style='color:#21e87f;'></i>WordPress Plugin </span>
+                            <span><i class='bx bx-check bx-sm' style='color:#21e87f'></i>API Access </span>
+                        </p>
+                        <button type="button"
+                            style="margin-top: 20px; padding: 7px;background: #12CD5E;
+    background: linear-gradient(to right, #12CD5E 5%, #189EFE 87%);width: 70%;color:white;border-radius: 5px;font-weight:700;margin-bottom: 100px;">
+                            Learn More </button>
+                    </div>
+                </div>
+</div>
+
+            </div>
+        </div>
+        <div class="trouble">
+        <p style="text-align: center;"> Having troubles logging into your account? <br>
+        <a href="#" style="color: black;font-size: 15px;text-decoration: none;"> Password Reset</a>   </p>
+        </div>
+</body>
+
+</html>
